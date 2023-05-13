@@ -2,13 +2,15 @@ import React from 'react';
 // mengimport contactitem karena akan di gunakan dalam komponen ini
 import ContactItem from './ContactItem';
 
-function ContactList({ contacts }) {
+function ContactList({ contacts, onDelete }) {
   return (
     <div className="contact-list">
       {contacts.map((contact) => (
         <ContactItem
-          {...contact}
           key={contact.id}
+          id={contact.id}
+          onDelete={onDelete}
+          {...contact}
         />
       ))}
     </div>

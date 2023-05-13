@@ -54,7 +54,7 @@ img {
   font-weight: lighter;
 }
 
-/* .contact-item__delete {
+.contact-item__delete {
   padding: 8px;
   font-size: 18px;
   background-color: orangered;
@@ -64,7 +64,7 @@ img {
   cursor: pointer;
 }
 
-.contact-input {
+/* .contact-input {
   border: 1px dashed black;
   padding: 16px;
   margin: 14px 0;
