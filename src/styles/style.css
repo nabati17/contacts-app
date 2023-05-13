@@ -64,7 +64,7 @@ img {
   cursor: pointer;
 }
 
-/* .contact-input {
+.contact-input {
   border: 1px dashed black;
   padding: 16px;
   margin: 14px 0;
@@ -84,4 +84,4 @@ img {
   width: 100%;
   padding: 8px;
   font-family: 'Inter', sans-serif;
-} */
+}
