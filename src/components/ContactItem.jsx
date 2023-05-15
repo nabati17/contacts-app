@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 // mengimport contactbody dan contactimage karena akan di gunakan dalam komponen ini
 import ContactItemBody from './ContactItemBody';
 import ContactItemImage from './ContactItemImage';
@@ -19,5 +20,13 @@ function ContactItem({ imageUrl, name, tag, id, onDelete }) {
     </div>
   );
 }
+
+ContactItem.propTypes = {
+  imageUrl: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
+  onDelete: PropTypes.func.isRequired,
+};
 
 export default ContactItem;

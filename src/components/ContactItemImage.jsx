@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function ContactItemImage({ imageUrl }) {
   return (
@@ -10,5 +11,9 @@ function ContactItemImage({ imageUrl }) {
     </div>
   );
 }
+
+ContactItemImage.propTypes = {
+  imageUrl: PropTypes.string.isRequired,
+};
 
 export default ContactItemImage;

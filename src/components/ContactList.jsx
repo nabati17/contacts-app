@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 // mengimport contactitem karena akan di gunakan dalam komponen ini
 import ContactItem from './ContactItem';
 
@@ -16,5 +17,10 @@ function ContactList({ contacts, onDelete }) {
     </div>
   );
 }
+
+ContactList.propTypes = {
+  contacts: PropTypes.arrayOf(PropTypes.object).isRequired,
+  onDelete: PropTypes.func.isRequired,
+};
 
 export default ContactList;
