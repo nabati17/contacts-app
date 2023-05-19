@@ -1,39 +1,9 @@
-// const getData = () => {
-//   return [
-//     {
-//       id: 1,
-//       name: 'Dimas Saputra',
-//       tag: 'dimasmds',
-//       imageUrl: '/images/dimasmds.jpeg',
-//     },
-//     {
-//       id: 2,
-//       name: 'Arif Faizin',
-//       tag: 'arifaizin',
-//       imageUrl: '/images/arifaizin.jpeg',
-//     },
-//     {
-//       id: 3,
-//       name: 'Rahmat Fajri',
-//       tag: 'rfajri27',
-//       imageUrl: '/images/rfajri27.jpeg',
-//     },
-//     {
-//       id: 4,
-//       name: 'Asnabah',
-//       tag: 'nabati._',
-//       imageUrl: '/images/imaR.jpg',
-//     },
-//   ];
-// };
-
-// export { getData };
 let contacts = [
   {
     id: 1,
-    name: 'Dimas Saputra',
-    tag: 'dimasmds',
-    imageUrl: '/images/dimasmds.jpeg',
+    name: 'Asnabah',
+    tag: 'nabati._',
+    imageUrl: '/images/imaR.jpg',
   },
   {
     id: 2,
@@ -49,9 +19,9 @@ let contacts = [
   },
   {
     id: 4,
-    name: 'Asnabah',
-    tag: 'nabati._',
-    imageUrl: '/images/imaR.jpg',
+    name: 'Dimas Saputra',
+    tag: 'dimasmds',
+    imageUrl: '/images/dimasmds.jpeg',
   },
 ];
 
