@@ -10,6 +10,7 @@ function putAccessToken(accessToken) {
   return localStorage.setItem('accessToken', accessToken);
 }
 
+
 async function fetchWithToken(url, options = {}) {
   return fetch(url, {
     ...options,
